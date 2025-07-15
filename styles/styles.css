@@ -176,6 +176,41 @@ ul {
     margin-top: 2rem;
 }
 
+.action-section {
+    width: 60%;
+    height: 20rem;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 1.2rem 2.4rem;
+    margin: 8rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.action-container {
+    width: 100%;
+    margin: 2rem auto;
+    color: #F9FAD8;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.action-button {
+    border: 2px solid #F9FAD8;
+    font-size: 1.8rem;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    font-weight: 900;
+}
+
+.action-button:hover{
+    background-color: #F9FAD8;
+    color: #3882f6;
+}
+
 .footer {
     background-color: #1F2937;
     color: white;
