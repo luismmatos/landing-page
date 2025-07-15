@@ -82,6 +82,55 @@ ul {
     width: 100%;
 }
 
+.info-section {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    color: #1F2937;
+    margin: 10rem 0;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.header-line {
+    width: 12%;
+    height: 0.4rem;
+    background-color: #1F2937;
+    margin: 2rem auto;
+}
+
+.info-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.info-boxes figcaption {
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 2rem;
+    margin: 1rem 0;
+    width: 12em;
+    padding: 1.2rem 0;
+}
+
+.info-item {
+    padding: 1.2rem 2.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 8em;
+    height: 20em;
+}
+
 .footer {
     background-color: #1F2937;
     color: white;
