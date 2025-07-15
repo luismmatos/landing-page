@@ -87,7 +87,7 @@ ul {
     height: auto;
     background-color: white;
     color: #1F2937;
-    margin: 10rem 0;
+    margin: 2rem 0 0 0;
 }
 
 .info-header {
@@ -129,6 +129,51 @@ ul {
     align-items: center;
     width: 8em;
     height: 20em;
+}
+
+.quote-section {
+    width: 100%;
+    height: 35rem;
+    background-color: #e5e7eb;
+    padding: 2rem 0;
+    margin: 2rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.quotation-mark {
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    top: 2rem;
+    left: 5rem;
+    color: #e5e7eb;
+    opacity: 0.05;
+}
+
+.quote-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote-section blockquote {
+    width: 50%;
+    margin: auto;
+}
+
+.quote-section figcaption {
+    text-align: end;
+    font-style: normal;
+}
+
+.author-container {
+    margin-top: 2rem;
 }
 
 .footer {
